@@ -1,0 +1,61 @@
+<!--Hotel booking-->
+<html>
+ <head>
+   <title>HotelBooking</title>
+ </head>
+ <body bgcolor="Seashell">
+   <center><font size="6"><b>Hotel booking</b></font></center>
+   <br>
+   <form>
+     <center><font size="5">
+     <table cellpadding="8px" cellspacing="8px" bgcolor="Azure" width="70%" height="80%">
+      <tr>
+         <td>Enter your name here:</td>
+         <td><input type="text" name="n1" id="t1" size="20" title="Enter your name here" required ></td>
+      </tr>
+      <tr>
+         <td>Enter your phone number here:</td>
+         <td><input type="text" pattern="[0-9]{3}-[0-9]{5}-[0-9]{5}" placeholder="Mobile number1"></td>
+         <td><input type="text" pattern="[0-9]{3}-[0-9]{5}-[0-9]{5}" placeholder="Mobile number2"></td>
+      </tr>
+      <tr>
+         <td>Enter your age:</td>
+         <td><input type="date"></td>
+      </tr>
+      <tr>
+         <td>Enter your email address</td>
+         <td><input type="email"></td>
+      </tr>
+      <tr>
+         <td rowspan="2">You want a air-conditioned room?:</td>
+         <td><input type="checkbox" name="n2" id="t2"><label for="t2">YES</label></td>
+      </tr>
+      <tr>
+         <td><input type="checkbox" name="n3" id="t3"><label for="t3">NO</label></td>
+      </tr>
+      <tr>
+         <td rowspan="3">Choose the type of suite according to your comfort?</td>
+         <td><input type="radio" name="n4" id="t4"><label for="t4">Standard room at RS.260/days</label></td>
+      </tr>
+      <tr>
+         <td><input type="radio" name="n5" id="t5"><label for="t5">Premium room at RS.460/days</label></td>
+      </tr>
+      <tr>
+         <td><input type="radio" name="n6" id="t6"><label for="t6">Deluxe room at RS.660/days</label></td>
+      </tr>
+    <tr>
+    <tr>
+       <td>How many rooms you want to book?:</td>
+       <td><input type="number" min="1" max="10"></td>
+    </tr>
+   <tr>
+       <td>How many days you want to stay?:</td>
+       <td><input type="number" min="1" max="10"></td>
+    </tr>
+  </table>
+  <br>
+  <input type="submit" value="submit">
+  <input type="reset" value="reset">
+  </font></center></form>
+ </body>
+</html>
